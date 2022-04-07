@@ -1,38 +1,90 @@
-BO_ 1 LIFEPO4_CELLS_1: 8 XXX
- SG_ cellVoltage1 : 0|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage2 : 12|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage3 : 24|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage4 : 36|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage5 : 48|12@1+ (0.001,0) [0|4] "V" Vector_XXX
-
-BO_ 2 LIFEPO4_CELLS_2: 8 XXX
- SG_ cellVoltage6 : 0|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage7 : 12|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage8 : 24|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltage9 : 36|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltageA : 48|12@1+ (0.001,0) [0|4] "V" Vector_XXX
-
-BO_ 3 LIFEPO4_CELLS_3: 8 XXX
- SG_ cellVoltageB : 0|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltageC : 12|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltageD : 24|12@1+ (0.001,0) [0|4] "V" Vector_XXX
- SG_ cellVoltageE : 36|12@1+ (0.001,0) [0|4] "V" Vector_XXX
-
-BO_ 4 LIFEPO4_GENERAL: 8 XXX
- SG_ voltage : 0|16@1+ (0.001,0) [0|50] "V" Vector_XXX
- SG_ currentCharge : 16|12@1+ (0.1,0) [0|200] "A" Vector_XXX
- SG_ currentDischarge : 28|12@1+ (0.1,0) [0|200] "A" Vector_XXX
- SG_ temperature : 40|8@1+ (1,0) [0|100] "Celcius" Vector_XXX
- SG_ capacity : 48|8@1+ (1,0) [0|100] "Percent" Vector_XXX
- 
-BO_ 4 MPPT_GENERAL: 8 XXX
- SG_ panelVoltage : 0|18@1+ (0.001,0) [0|100] "V" Vector_XXX
- SG_ panelCurrent : 18|12@1+ (0.1,0) [0|200] "A" Vector_XXX
- SG_ chargerCurrent : 30|12@1+ (0.1,0) [0|200] "A" Vector_XXX
- SG_ panelPower : 42|16@1+ (0.1,0) [0|500] "W" Vector_XXX
-
-BO_ 4 HEARTBEAT: 8 XXX
- SG_ upTime : 0|32@1+ (0.001,0) [0|4294967296] "s" Vector_XXX
+BO_ 1 HEARTBEAT: 8 XXX
+ SG_ upTime : 0|32@1+ (0.001,0) [0|4294967.296] "s" Vector_XXX
  SG_ canTxMessFailCount : 32|8@1+ (1,0) [0|255] "" Vector_XXX
  SG_ canRxMessFailCount : 40|8@1+ (1,0) [0|255] "" Vector_XXX
 
+BO_ 2 LIFEPO4_GENERAL: 8 XXX
+ SG_ chargeCurrent : 0|16@1+ (0.1,0) [0|6553.5] "A" Vector_XXX
+ SG_ dischargingCurrent : 16|16@1+ (0.01,0) [0|655.35] "A" Vector_XXX
+ SG_ voltage : 32|16@1+ (0.1,0) [0|6553.5] "V" Vector_XXX
+ SG_ percentage : 48|8@1+ (1,0) [0|255] "%" Vector_XXX
+ SG_ state : 56|2@1+ (1,0) [0|3] "N/A" Vector_XXX
+
+BO_ 3 LIFEPO4_CELLS_1: 8 XXX
+ SG_ cellVoltage1 : 0|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage2 : 12|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage3 : 24|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage4 : 36|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage5 : 48|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+
+BO_ 4 LIFEPO4_CELLS_2: 8 XXX
+ SG_ cellVoltage6 : 0|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage7 : 12|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage8 : 24|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltage9 : 36|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltageA : 48|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+
+BO_ 5 LIFEPO4_CELLS_3: 8 XXX
+ SG_ cellVoltageB : 0|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltageC : 12|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltageD : 24|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ cellVoltageE : 36|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+
+BO_ 6 PUMPS_GENERAL: 8 XXX
+ SG_ waterLevel1 : 0|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ waterLevel2 : 12|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ waterLevel3 : 24|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ waterLevel4 : 36|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ statusPump1 : 48|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ statusPump2 : 49|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ statusPump3 : 50|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ statusPump4 : 51|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ operatingModePump1 : 52|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ operatingModePump2 : 53|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ operatingModePump3 : 54|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ operatingModePump4 : 55|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+
+BO_ 7 EMBEDDED_BUS_DATA: 8 XXX
+ SG_ voltage : 0|20@1+ (0.001,0) [0|1048] "V" Vector_XXX
+ SG_ current : 20|20@1+ (0.001,0) [0|1048] "A" Vector_XXX
+ SG_ power : 40|20@1+ (0.001,0) [0|1048] "W" Vector_XXX
+
+BO_ 8 POWER_BUS_DATA: 8 XXX
+ SG_ voltage : 0|20@1+ (0.001,0) [0|1048] "V" Vector_XXX
+ SG_ current : 20|20@1+ (0.001,0) [0|1048] "A" Vector_XXX
+ SG_ power : 40|20@1+ (0.001,0) [0|1048] "W" Vector_XXX
+
+BO_ 9 PV_DATA: 8 XXX
+ SG_ panelPower : 0|32@1+ (0.01,0) [0|42949672.95] "W" Vector_XXX
+ SG_ panelCurrent : 32|16@1+ (0.1,0) [0|6553.5] "A" Vector_XXX
+ SG_ panelVoltage : 48|16@1+ (0.01,0) [0|655.35] "V" Vector_XXX
+
+BO_ 10 MPPT_CHARGER_DATA: 8 XXX
+ SG_ internalTemperature : 0|16@1- (0.01,0) [-327.68|327.67] "Celcius" Vector_XXX
+ SG_ batteryCurrent : 16|16@1+ (0.1,0) [0|6553.5] "A" Vector_XXX
+ SG_ batteryVoltage : 32|16@1+ (0.01,0) [0|655.35] "V" Vector_XXX
+ 
+BO_ 11 YIELD_DATA: 8 XXX
+ SG_ yieldToday : 0|16@1+ (0.01,0) [0|655.35] "kWh" Vector_XXX
+ SG_ maximumPowerToday : 16|16@1+ (1,0) [0|65535] "W" Vector_XXX
+
+BO_ 12 GEODETIC_POSITION_1: 8 XXX
+ SG_ latitude : 0|32@1- (0.0000001,0) [-90|90] "deg" Vector_XXX
+ SG_ longitude : 32|32@1- (0.0000001,0) [-180|180] "deg" Vector_XXX
+
+BO_ 13 GEODETIC_POSITION_2: 8 XXX
+ SG_ hamsl : 0|16@1- (1,0) [-32768|32767] "mm" Vector_XXX
+ SG_ horizontalAccEst : 16|16@1+ (1,0) [0|65535] "mm" Vector_XXX
+ SG_ verticalAccEst : 32|16@1+ (1,0) [0|65535] "mm" Vector_XXX
+ SG_ gpsFixType : 48|3@1+ (1,0) [0|5] "" Vector_XXX
+ SG_ gpsFixOK : 51|1@1+ (1,0) [0|1] "" Vector_XXX
+ 
+BO_ 14 NED_VELOCITY: 8 XXX
+ SG_ speed : 0|12@1+ (1,0) [0|4095] "cm/s" Vector_XXX
+ SG_ groundSpeed : 12|12@1+ (1,0) [0|4095] "cm/s" Vector_XXX
+ SG_ speedAccEst : 24|12@1+ (1,0) [0|4095] "cm/s" Vector_XXX
+
+BO_ 15 NED_HEADING: 8 XXX
+ SG_ headingOfMotion : 0|32@1- (0.00001,0) [0|360] "deg" Vector_XXX
+ SG_ headingOfMotionAccEst : 32|32@1+ (0.00001,0) [0|42949.67295] "deg" Vector_XXX
+ 

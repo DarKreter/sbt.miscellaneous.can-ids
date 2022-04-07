@@ -1,60 +1,126 @@
 {
-    "Boards": [
+    "SourceIDs": [
         {
-            "ID": "0x01",
+            "MinID": "0x01",
+            "MaxID": "0x02",
+            "Name": "MPPT_CONTROLLER_<x>"
+        },
+        {
+            "MinID": "0x03",
+            "MaxID": "0x04",
+            "Name": "LIFEPO4_CONTROLLER_<x>"
+        },
+        {
+            "MinID": "0x05",
+            "MaxID": "0x08",
+            "Name": "MPPT_<x>"
+        },
+        {
+            "MinID": "0x09",
+            "MaxID": "0x0C",
+            "Name": "LIFEPO4_<x>"
+        },
+        {
+            "ID": "0x0D",
+            "Name": "PUMPS_CONTROLLER"
+        },
+        {
+            "ID": "0x0E",
+            "Name": "CPB_CONTROLLER"
+        },
+        {
+            "ID": "0x0F",
             "Name": "PiBox"
         },
         {
-            "ID": "0x02",
-            "Name": "Steering wheel"
-        },
-        {
             "ID": "0x10",
-            "Name": "Battery 1"
-        },
-        {
-            "ID": "0x11",
-            "Name": "Battery 2"
+            "Name": "GPS_CONTROLLER"
         }
     ],
-    "Parameters": [
+    "ParamIDs": [
         {
-            "ID": "0x0001",
-            "Name": "Heartbeat", 
-            "Type": "uint32"
+            "ID": "0x001",
+            "Name": "HEARTBEAT", 
+            "Group": "DEFAULT",
+            "Priority": "0"
         },
         {
-            "MinID": "0x0010",
-            "MaxID": "0x004F",
-            "Name": "Binary channel <x>", 
-            "Type": "bool"
+            "ID": "0x002",
+            "Name": "LIFEPO4_GENERAL",
+            "Group": "LIFEPO4_DATA",
+            "Priority": "7"
         },
         {
-            "MinID": "0x0050",
-            "MaxID": "0x008F",
-            "Name": "Voltage channel <x>", 
-            "Type": "float"
+            "MinID": "0x003",
+            "MaxID": "0x005",
+            "Name": "LIFEPO4_CELLS_<x>",
+            "Group": "LIFEPO4_DATA",
+            "Priority": "7"
         },
         {
-            "MinID": "0x0090",
-            "MaxID": "0x00CF",
-            "Name": "Current channel <x>", 
-            "Type": "float"
+            "ID": "0x006",
+            "Name": "PUMPS_GENERAL",
+            "Group": "DEFAULT",
+            "Priority": "7"
         },
         {
-            "ID": "0x0100",
-            "Name": "Latitude",
-            "Type": "float"
+            "ID": "0x007",
+            "Name": "EMBEDDED_BUS_DATA",
+            "Group": "DEFAULT",
+            "Priority": "7"
         },
         {
-            "ID": "0x0101",
-            "Name": "Longitude",
-            "Type": "float"
+            "ID": "0x008",
+            "Name": "POWER_BUS_DATA",
+            "Group": "DEFAULT",
+            "Priority": "7"
         },
         {
-            "ID": "0x0102",
-            "Name": "Altitude",
-            "Type": "float"
+            "ID": "0x009",
+            "Name": "PV_DATA",
+            "Group": "MPPT_DATA",
+            "Priority": "7"
+        },
+        {
+            "ID": "0x00A",
+            "Name": "MPPT_CHARGER_DATA",
+            "Group": "MPPT_DATA",
+            "Priority": "7"
+        },
+        {
+            "ID": "0x00B",
+            "Name": "YIELD_DATA",
+            "Group": "MPPT_DATA",
+            "Priority": "7"
+        },
+        {
+            "MinID": "0x00C",
+            "MaxID": "0x00D",
+            "Name": "GEODETIC_POSITION_<x>",
+            "Group": "DEFAULT",
+            "Priority": "7"
+        },
+        {
+            "ID": "0x00E",
+            "Name": "NED_VELOCITY",
+            "Group": "DEFAULT",
+            "Priority": "7"
+        },
+        {
+            "ID": "0x00F",
+            "Name": "NED_HEADING",
+            "Group": "DEFAULT",
+            "Priority": "7"
+        }
+    ],
+    "GroupIDs": [
+        {
+            "ID": "0x01",
+            "Name": "LIFEPO4_DATA"
+        },
+        {
+            "ID": "0x02",
+            "Name": "MPPT_DATA"
         }
     ]
 }
