@@ -42,13 +42,13 @@
             "ID": "0x001",
             "Name": "HEARTBEAT", 
             "Group": "DEFAULT",
-            "Priority": "0"
+            "Priority": "7"
         },
         {
             "ID": "0x002",
             "Name": "LIFEPO4_GENERAL",
             "Group": "LIFEPO4_DATA",
-            "Priority": "7"
+            "Priority": "4"
         },
         {
             "MinID": "0x003",
@@ -61,25 +61,25 @@
             "ID": "0x006",
             "Name": "PUMPS_GENERAL",
             "Group": "DEFAULT",
-            "Priority": "7"
+            "Priority": "5"
         },
         {
             "ID": "0x007",
             "Name": "EMBEDDED_BUS_DATA",
             "Group": "DEFAULT",
-            "Priority": "7"
+            "Priority": "3"
         },
         {
             "ID": "0x008",
             "Name": "POWER_BUS_DATA",
             "Group": "DEFAULT",
-            "Priority": "7"
+            "Priority": "3"
         },
         {
             "ID": "0x009",
             "Name": "PV_DATA",
             "Group": "MPPT_DATA",
-            "Priority": "7"
+            "Priority": "5"
         },
         {
             "ID": "0x00A",
@@ -104,7 +104,7 @@
             "ID": "0x00E",
             "Name": "NED_VELOCITY",
             "Group": "DEFAULT",
-            "Priority": "7"
+            "Priority": "6"
         },
         {
             "ID": "0x00F",
