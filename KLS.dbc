@@ -1,0 +1,4 @@
+BO_ 1 exampleFrame: 8 XXX
+ SG_ exampleSignal1 : 0|32@1+ (0.001,0) [0|1] "s" Vector_XXX
+ SG_ exampleSignal2 : 32|8@1+ (1,0) [0|1] "" Vector_XXX
+ SG_ exampleSignal3 : 40|8@1+ (1,0) [0|1] "" Vector_XXX
