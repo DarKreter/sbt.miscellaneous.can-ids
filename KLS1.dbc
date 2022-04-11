@@ -1,9 +1,0 @@
-BO_ 2364612101 exampleFrame1: 8 XXX
- SG_ exampleSignal1 : 0|32@1+ (1,0) [0|10000] "s" Vector_XXX
- SG_ exampleSignal2 : 32|8@1+ (1,0) [0|10000] "" Vector_XXX
- SG_ exampleSignal3 : 40|8@1+ (1,0) [0|10000] "" Vector_XXX
-
-BO_ 2364612357 exampleFrame2: 8 XXX
- SG_ exampleSignal1 : 0|32@1+ (1,0) [0|10000] "s" Vector_XXX
- SG_ exampleSignal2 : 32|8@1+ (1,0) [0|10000] "" Vector_XXX
- SG_ exampleSignal3 : 40|8@1+ (1,0) [0|10000] "" Vector_XXX
