@@ -73,11 +73,11 @@ BO_ 12 GEODETIC_POSITION_1: 8 XXX
  SG_ longitude : 32|32@1- (0.0000001,0) [-180|180] "deg" Vector_XXX
 
 BO_ 13 GEODETIC_POSITION_2: 8 XXX
- SG_ hamsl : 0|16@1- (1,0) [-32768|32767] "mm" Vector_XXX
- SG_ horizontalAccEst : 16|16@1+ (1,0) [0|65535] "mm" Vector_XXX
- SG_ verticalAccEst : 32|16@1+ (1,0) [0|65535] "mm" Vector_XXX
- SG_ gpsFixType : 48|3@1+ (1,0) [0|5] "" Vector_XXX
- SG_ gpsFixOK : 51|1@1+ (1,0) [0|1] "" Vector_XXX
+ SG_ horizontalAccEst : 0|16@1+ (1,0) [0|65535] "mm" Vector_XXX
+ SG_ verticalAccEst : 16|16@1+ (1,0) [0|65535] "mm" Vector_XXX
+ SG_ hamsl : 32|28@1- (0.001,0) [-134217.728|134217.727] "m" Vector_XXX
+ SG_ gpsFixType : 60|3@1+ (1,0) [0|5] "" Vector_XXX
+ SG_ gpsFixOK : 63|1@1+ (1,0) [0|1] "" Vector_XXX
  
 BO_ 14 NED_VELOCITY: 8 XXX
  SG_ speed : 0|12@1+ (1,0) [0|4095] "cm/s" Vector_XXX
