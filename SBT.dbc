@@ -87,4 +87,16 @@ BO_ 14 NED_VELOCITY: 8 XXX
 BO_ 15 NED_HEADING: 8 XXX
  SG_ headingOfMotion : 0|32@1- (0.00001,0) [0|360] "deg" Vector_XXX
  SG_ headingOfMotionAccEst : 32|32@1+ (0.00001,0) [0|42949.67295] "deg" Vector_XXX
- 
+
+BO_ 16 YOKE_GENERAL: 8 XXX
+ SG_ enablePump1 : 0|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ enablePump2 : 2|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ enablePump3 : 4|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ enablePump4 : 6|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ enableSiren : 8|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ pumpOperatingMode1 : 10|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ pumpOperatingMode2 : 12|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ pumpOperatingMode3 : 14|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ pumpOperatingMode4 : 16|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ resetEmbeddedBus : 18|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ resetPowerBus : 20|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
