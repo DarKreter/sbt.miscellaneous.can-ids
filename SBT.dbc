@@ -29,6 +29,7 @@ BO_ 5 LIFEPO4_CELLS_3: 8 XXX
  SG_ cellVoltageC : 12|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
  SG_ cellVoltageD : 24|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
  SG_ cellVoltageE : 36|12@1+ (0.001,0) [0|4.095] "V" Vector_XXX
+ SG_ power : 48|16@1+ (0.1,0) [0|6553.5] "W" Vector_XXX
 
 BO_ 6 PUMPS_GENERAL: 8 XXX
  SG_ waterLevel1 : 0|12@1+ (1,0) [0|4095] "" Vector_XXX
