@@ -5,7 +5,7 @@ BO_ 1 HEARTBEAT: 8 XXX
 
 BO_ 2 LIFEPO4_GENERAL: 8 XXX
  SG_ chargeCurrent : 0|16@1+ (0.1,0) [0|6553.5] "A" Vector_XXX
- SG_ dischargingCurrent : 16|16@1+ (0.01,0) [0|655.35] "A" Vector_XXX
+ SG_ dischargingCurrent : 16|16@1+ (0.1,0) [0|6553.5] "A" Vector_XXX
  SG_ voltage : 32|16@1+ (0.1,0) [0|6553.5] "V" Vector_XXX
  SG_ percentage : 48|8@1+ (1,0) [0|255] "%" Vector_XXX
  SG_ state : 56|2@1+ (1,0) [0|3] "N/A" Vector_XXX
