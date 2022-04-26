@@ -44,6 +44,7 @@ BO_ 6 PUMPS_GENERAL: 8 XXX
  SG_ operatingModePump2 : 53|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
  SG_ operatingModePump3 : 54|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
  SG_ operatingModePump4 : 55|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
+ SG_ statusSiren : 56|1@1+ (1,0) [0|1] "Boolean" Vector_XXX
 
 BO_ 7 EMBEDDED_BUS_DATA: 8 XXX
  SG_ voltage : 0|20@1+ (0.001,0) [0|1048] "V" Vector_XXX
