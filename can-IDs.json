@@ -121,6 +121,12 @@
             "Name": "YOKE_GENERAL",
             "Group": "DEFAULT",
             "Priority": "2"
+        },
+        {
+            "ID": "0x011",
+            "Name": "PUMPS_THRESHOLD",
+            "Group": "DEFAULT",
+            "Priority": "2"
         }
     ],
     "GroupIDs": [

@@ -102,3 +102,10 @@ BO_ 16 YOKE_GENERAL: 8 XXX
  SG_ pumpOperatingMode4 : 16|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
  SG_ resetEmbeddedBus : 18|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
  SG_ resetPowerBus : 20|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+
+
+BO_ 17 PUMPS_THRESHOLD: 8 XXX
+ SG_ thresholdWaterSensor1 : 0|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ thresholdWaterSensor2 : 12|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ thresholdWaterSensor3 : 24|12@1+ (1,0) [0|4095] "" Vector_XXX
+ SG_ thresholdWaterSensor4 : 36|12@1+ (1,0) [0|4095] "" Vector_XXX
