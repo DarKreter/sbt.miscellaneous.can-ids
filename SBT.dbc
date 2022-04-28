@@ -96,10 +96,10 @@ BO_ 16 YOKE_GENERAL: 8 XXX
  SG_ enablePump3 : 4|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
  SG_ enablePump4 : 6|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
  SG_ enableSiren : 8|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
- SG_ pumpOperatingMode1 : 10|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
- SG_ pumpOperatingMode2 : 12|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
- SG_ pumpOperatingMode3 : 14|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
- SG_ pumpOperatingMode4 : 16|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ operatingModePump1 : 10|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ operatingModePump2 : 12|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ operatingModePump3 : 14|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
+ SG_ operatingModePump4 : 16|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
  SG_ resetEmbeddedBus : 18|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
  SG_ resetPowerBus : 20|2@1+ (1,0) [0|3] "Boolean" Vector_XXX
 
