@@ -39,6 +39,10 @@
         {
             "ID": "0x11",
             "Name": "YOKE"
+        },
+        {
+            "ID": "0x12",
+            "Name": "TEMPERATURE_BOX"
         }
     ],
     "ParamIDs": [
@@ -127,6 +131,12 @@
             "Name": "PUMPS_THRESHOLD",
             "Group": "DEFAULT",
             "Priority": "2"
+        },
+        {
+            "ID": "0x012",
+            "Name": "TEMPERATURE_POWERBOX",
+            "Group": "DEFAULT",
+            "Priority": "5"
         }
     ],
     "GroupIDs": [
