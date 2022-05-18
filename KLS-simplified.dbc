@@ -1,0 +1,9 @@
+BO_ 2364612101 KLS_DATA_1: 8 XXX
+ SG_ Speed : 0|16@1+ (1.0, 0) [0|6000] "rpm" Vector_XXX
+ SG_ Current : 16|16@1+ (0.1, 0) [0|400] "A" Vector_XXX
+ SG_ Voltage : 32|16@1+ (0.1, 0) [0|180] "V" Vector_XXX
+
+BO_ 2364612357 KLS_DATA_2: 8 XXX
+ SG_ Throttle : 0|8@1+ (-0.390625, 100) [-100|100] "%" Vector_XXX
+ SG_ ControllerTemp : 8|8@1+ (1.0, -40) [-50|400] "*C" Vector_XXX
+ SG_ MotorTemp : 16|8@1+ (1.0, -30) [-50|400] "*C" Vector_XXX
